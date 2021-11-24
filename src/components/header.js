@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div
+    <div className="navbar"
       style={{
         margin: `0 auto`,
         maxWidth: 960,
@@ -20,17 +20,22 @@ const Header = ({ siteTitle }) => (
 
 
       <h3 style={{ margin: 0 }}>
-        <Link
-          to="/"
+        <Link className="nav" to="/">{/* {siteTitle} */}HOME</Link>
+      </h3>
+
+
+      <h3 style={{ margin: 0 }}>
+        <Link className="nav" 
+          to="/projects"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
           {/* {siteTitle} */}
-          HOME
+          PROJECTS
         </Link>
-      </h3>
+      </h3>      
 
 
 
