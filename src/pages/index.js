@@ -8,9 +8,6 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <br />
-    <br />
-    <br />
     <h1>Hi, my name is Steve Braaksma.</h1>
     <h2>Software Engineer / Full Stack Developer</h2>
     <p>Welcome to your new Gatsby site.</p>
