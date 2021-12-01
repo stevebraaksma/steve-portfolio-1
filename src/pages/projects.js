@@ -8,7 +8,13 @@ import Seo from "../components/seo"
 import { Card } from "@material-ui/core"
 import { Grid } from "@material-ui/core"
 // import { ListItem } from "@material-ui/core"
+// import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+// import { OpenInNewIcon } from "@material-ui/core"
 
+// import { OpenInNewIcon } from '@mui/icons-material';
+
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import GithubIcon from '@mui/icons-material/Github';
 
 
 const Projects = () => (
@@ -17,15 +23,17 @@ const Projects = () => (
     <h1>Projects</h1>
 
 
-    
-
     <Grid container spacing={2}>
       <Grid item xs={5}>
         <Card variant="outlined" className="card">
-          BuyerNode Task Manager<br />
-          (short summary)
-          hey
-          hey
+          <h5>BuyerNode Task Manager</h5>
+          <p>Designed for purchasing/supply chain departments</p>
+
+          <a href="https://www.google.com/" target="_blank"><OpenInNewIcon/></a>
+          <a href="https://www.google.com/" target="_blank"><GithubIcon/></a>
+
+          <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
+        
         </Card>
       </Grid>
 
