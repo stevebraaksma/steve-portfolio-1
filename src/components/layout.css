@@ -1,12 +1,15 @@
 
 
-
+.stack-card {
+  margin-top: 16px;
+}
 
 .card {
-  height: 200px;
-  width: 350px;
+  height: 300px;
+  /* width: 350px; */
   padding: 30px;
-  margin-bottom: 20px;
+  margin: 20px;
+  background-color: azure;
 }
 
 .navbar {
