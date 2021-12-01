@@ -27,8 +27,6 @@
 .nav:hover{
   cursor: pointer;
   text-decoration: underline;
-  /* color: red;
-  background-color: purple; */
 }
 
 .resume-button {
@@ -66,9 +64,9 @@ body {
   
 }
 
-h1 {
-  color: 
-}
+/* h1 {
+  color:
+} */
 
 
 
