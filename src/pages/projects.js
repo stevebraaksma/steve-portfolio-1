@@ -8,7 +8,8 @@ import { Card } from "@material-ui/core"
 import { Grid } from "@material-ui/core"
 
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import GithubIcon from '@mui/icons-material/Github';
+// import GithubIcon from '@mui/icons-material/Github';
+import GithubIcon from '@material-ui/icons/Github';
 
 
 const Projects = () => (
@@ -22,28 +23,28 @@ const Projects = () => (
         <Card variant="outlined" className="card">
           <h4>BuyerNode Task Manager</h4>
           <p>Designed for purchasing/supply chain departments</p>
-          <a href="https://www.google.com/" target="_blank"><GithubIcon/></a>&nbsp;&nbsp;
-          <a href="https://www.google.com/" target="_blank"><OpenInNewIcon/></a><br />
+          <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer"><GithubIcon/></a>&nbsp;&nbsp;
+          <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
         </Card>
       </Grid>
 
       <Grid item xs={10} md={5}>
         <Card variant="outlined" className="card">
-          <h4>BuyerNode Task Manager</h4>
-          <p>Designed for purchasing/supply chain departments</p>
-          <a href="https://www.google.com/" target="_blank"><GithubIcon/></a>&nbsp;&nbsp;
-          <a href="https://www.google.com/" target="_blank"><OpenInNewIcon/></a><br />
-          <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
+          <h4>Thresher EMS Solutions</h4>
+          <p>Designed for tracking electronic component purchases</p>
+          <a href="https://github.com/stevebraaksma/thresher/" target="_blank" rel="noreferrer"><GithubIcon/></a>&nbsp;&nbsp;
+          <a href="https://thresherapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
+          <h6 className="stack-card"> HTML / CSS / JavaScript / Node / Auth0</h6>
         </Card>
       </Grid>
 
       <Grid item xs={10} md={5}>
         <Card variant="outlined" className="card">
-          <h4>BuyerNode Task Manager</h4>
-          <p>Designed for purchasing/supply chain departments</p>
-          <a href="https://www.google.com/" target="_blank"><GithubIcon/></a>&nbsp;&nbsp;
-          <a href="https://www.google.com/" target="_blank"><OpenInNewIcon/></a><br />
+          <h4>Triplog</h4>
+          <p>Trip planner with comment feature</p>
+          <a href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer"><GithubIcon/></a>&nbsp;&nbsp;
+          <a href="https://triplogapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
         </Card>
       </Grid>
@@ -51,10 +52,10 @@ const Projects = () => (
 
       <Grid item xs={10} md={5}>
         <Card variant="outlined" className="card">
-          <h4>BuyerNode Task Manager</h4>
-          <p>Designed for purchasing/supply chain departments</p>
-          <a href="https://www.google.com/" target="_blank"><GithubIcon/></a>&nbsp;&nbsp;
-          <a href="https://www.google.com/" target="_blank"><OpenInNewIcon/></a><br />
+          <h4>festivalRambler</h4>
+          <p>Displays festivals sorted by region</p>
+          <a href="https://github.com/stevebraaksma/festivalRambler/" target="_blank" rel="noreferrer"><GithubIcon/></a>&nbsp;&nbsp;
+          <a href="https://festivalrambler.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
         </Card>
       </Grid>
