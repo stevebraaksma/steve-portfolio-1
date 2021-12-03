@@ -9,7 +9,7 @@ import { Grid } from "@material-ui/core"
 
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 // import GithubIcon from '@mui/icons-material/Github';
-import GithubIcon from '@material-ui/icons/Github';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 
 const Projects = () => (
@@ -23,7 +23,7 @@ const Projects = () => (
         <Card variant="outlined" className="card">
           <h4>BuyerNode Task Manager</h4>
           <p>Designed for purchasing/supply chain departments</p>
-          <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer"><GithubIcon/></a>&nbsp;&nbsp;
+          <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
         </Card>
@@ -33,7 +33,7 @@ const Projects = () => (
         <Card variant="outlined" className="card">
           <h4>Thresher EMS Solutions</h4>
           <p>Designed for tracking electronic component purchases</p>
-          <a href="https://github.com/stevebraaksma/thresher/" target="_blank" rel="noreferrer"><GithubIcon/></a>&nbsp;&nbsp;
+          <a href="https://github.com/stevebraaksma/thresher/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://thresherapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / Node / Auth0</h6>
         </Card>
@@ -43,7 +43,7 @@ const Projects = () => (
         <Card variant="outlined" className="card">
           <h4>Triplog</h4>
           <p>Trip planner with comment feature</p>
-          <a href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer"><GithubIcon/></a>&nbsp;&nbsp;
+          <a href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://triplogapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
         </Card>
@@ -54,7 +54,7 @@ const Projects = () => (
         <Card variant="outlined" className="card">
           <h4>festivalRambler</h4>
           <p>Displays festivals sorted by region</p>
-          <a href="https://github.com/stevebraaksma/festivalRambler/" target="_blank" rel="noreferrer"><GithubIcon/></a>&nbsp;&nbsp;
+          <a href="https://github.com/stevebraaksma/festivalRambler/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://festivalrambler.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
         </Card>
