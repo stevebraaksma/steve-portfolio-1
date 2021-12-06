@@ -2,6 +2,14 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import resume from "/static/resume.pdf"
+// import { Drawer } from "@material-ui/core"
+// import { Drawer } from '@mui/material'
+import { Hidden } from "@material-ui/core"
+import MenuIcon from '@mui/icons-material/Menu';
+import { IconButton } from '@mui/material';
+import { SwipeableDrawer } from "@material-ui/core"
+import { Divider } from "@material-ui/core"
+import { ChevronRight } from "@material-ui/icons"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -10,6 +18,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
+    
     <div className="navbar"
       style={{
         margin: `0 auto`,
@@ -18,8 +27,13 @@ const Header = ({ siteTitle }) => (
         background: `grey`,
       }}
     >
+      <Hidden smUp>
+        <IconButton>
+          <MenuIcon/>
+        </IconButton>
+      </Hidden>
 
-
+      <Hidden xsDown>
       <h3 style={{ margin: 0 }}>
         <Link className="nav" to="/">HOME</Link>
       </h3>
@@ -43,9 +57,18 @@ const Header = ({ siteTitle }) => (
 <a type='button' className='resume-button nav' rel="noreferrer" target="_blank" href={resume}>RESUME</a>
 
       </h3>
+      </Hidden>
+
 
 
     </div>
+
+      <SwipeableDrawer anchor="right" open={true}>
+        
+
+      </SwipeableDrawer>
+
+
   </header>
 )
 
