@@ -68,10 +68,6 @@ const Projects = () => (
 
     </Grid>
 
-
-
-    <p>Here are my projects</p>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

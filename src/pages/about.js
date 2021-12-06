@@ -21,7 +21,6 @@ const About = () => (
     GITHUB:<br />
     https://github.com/SteveBraaksma
     </p>
-    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 

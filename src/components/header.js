@@ -1,7 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-// import Steve_Braaksma_resume from "../Steve_Braaksma_resume.pdf"
 import resume from "/static/resume.pdf"
 
 const Header = ({ siteTitle }) => (
