@@ -27,8 +27,13 @@ const Projects = () => (
           <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
-          <img src={'/nodeicon.png'} alt="NodeJS" />
-          <img src={'/mongodb.png'} alt="MongoDB" />
+          <img src={'/nodejs.svg'} alt="NodeJS" />
+          <img src={'/mongodb.svg'} alt="MongoDB" />
+          <img className="express-icon" src={'/expressjs.svg'} alt="Express" />
+          <img src={'/react.svg'} alt="React" />
+          <img src={'/javascript.svg'} alt="JavaScript" />
+          <img src={'/css3.svg'} alt="css3" />
+          <img src={'/html5.svg'} alt="html5" />
         </Card>
       </Grid>
 

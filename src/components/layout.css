@@ -1,12 +1,18 @@
-
+.express-icon {
+  width: 48px;
+  /* margin: 3px; */
+  /* padding: 1px; */
+  /* margin-bottom: 2px; */
+  padding-bottom: 9px;
+}
 
 .stack-card {
   margin-top: 16px;
 }
 
 .card {
-  height: 300px;
-  /* width: 350px; */
+  /* height: 300px; */
+  height: 500px;
   padding: 30px;
   margin: 20px;
   background-color: azure;
