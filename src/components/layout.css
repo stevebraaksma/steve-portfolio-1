@@ -6,6 +6,15 @@
   padding-bottom: 9px;
 }
 
+
+.auth0-icon {
+  width: 40px;
+}
+
+/* .project-action-button {
+  width: 100px;
+} */
+
 .stack-card {
   margin-top: 16px;
 }
