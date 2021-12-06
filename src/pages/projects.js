@@ -28,6 +28,7 @@ const Projects = () => (
           <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
           <img src={'/nodeicon.png'} alt="NodeJS" />
+          <img src={'/mongodb.png'} alt="MongoDB" />
         </Card>
       </Grid>
 
