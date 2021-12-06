@@ -26,7 +26,7 @@ const Projects = () => (
           <p>Designed for purchasing/supply chain departments</p>
           <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
-          <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
+          <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node / MongoDB / Express / Heroku / Netlify</h6>
           <img src={'/nodejs.svg'} alt="NodeJS" />
           <img src={'/mongodb.svg'} alt="MongoDB" />
           <img className="express-icon" src={'/expressjs.svg'} alt="Express" />
@@ -43,7 +43,7 @@ const Projects = () => (
           <p>Designed for tracking electronic component purchases</p>
           <a href="https://github.com/stevebraaksma/thresher/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://thresherapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
-          <h6 className="stack-card"> HTML / CSS / JavaScript / Node / Auth0</h6>
+          <h6 className="stack-card"> HTML / CSS / JavaScript / Node / MongoDB / Express / Auth0 / Heroku</h6>
           <img src={'/nodejs.svg'} alt="NodeJS" />
           <img src={'/mongodb.svg'} alt="MongoDB" />
           <img className="express-icon" src={'/expressjs.svg'} alt="Express" />
@@ -60,7 +60,7 @@ const Projects = () => (
           <p>Trip planner with comment feature</p>
           <a href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://triplogapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
-          <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
+          <h6 className="stack-card"> HTML / CSS / JavaScript / Python / Django / Heroku</h6>
           <img src={'/python.svg'} alt="Python" />
           <img src={'/django.svg'} alt="Django" />
           <img src={'/javascript.svg'} alt="JavaScript" />
@@ -76,7 +76,7 @@ const Projects = () => (
           <p>Displays festivals sorted by region</p>
           <a href="https://github.com/stevebraaksma/festivalRambler/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://festivalrambler.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
-          <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
+          <h6 className="stack-card"> HTML / CSS / JavaScript / jQuery / EDMtrain API / Netlify</h6>
           <img src={'/jquery.svg'} alt="jquery" />
           <img src={'/javascript.svg'} alt="JavaScript" />
           <img src={'/css3.svg'} alt="css3" />
