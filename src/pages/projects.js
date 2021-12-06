@@ -10,6 +10,7 @@ import { Grid } from "@material-ui/core"
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 // import GithubIcon from '@mui/icons-material/Github';
 import GitHubIcon from '@material-ui/icons/GitHub';
+// import icons8-node-js-48 from "/static/icons8-node-js-48.png"
 
 
 const Projects = () => (
@@ -26,6 +27,7 @@ const Projects = () => (
           <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node</h6>
+          <img src={'/nodeicon.png'} alt="NodeJS" />
         </Card>
       </Grid>
 
