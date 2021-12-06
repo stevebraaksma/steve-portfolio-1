@@ -1,3 +1,7 @@
+
+
+
+
 .express-icon {
   width: 48px;
   /* margin: 3px; */
@@ -25,6 +29,11 @@
   padding: 30px;
   margin: 20px;
   background-color: azure;
+}
+
+.contact-card {
+  width: 400px;
+  height: 250px;
 }
 
 .navbar {
