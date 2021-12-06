@@ -3,13 +3,10 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import resume from "/static/resume.pdf"
 // import { Drawer } from "@material-ui/core"
-// import { Drawer } from '@mui/material'
+import { Drawer } from '@mui/material'
 import { Hidden } from "@material-ui/core"
-import MenuIcon from '@mui/icons-material/Menu';
 import { IconButton } from '@mui/material';
-import { SwipeableDrawer } from "@material-ui/core"
-import { Divider } from "@material-ui/core"
-import { ChevronRight } from "@material-ui/icons"
+import MenuIcon from '@mui/icons-material/Menu'
 
 const Header = ({ siteTitle }) => (
   <header
@@ -32,7 +29,7 @@ const Header = ({ siteTitle }) => (
           <MenuIcon/>
         </IconButton>
       </Hidden>
-
+      
       <Hidden xsDown>
       <h3 style={{ margin: 0 }}>
         <Link className="nav" to="/">HOME</Link>
@@ -62,13 +59,6 @@ const Header = ({ siteTitle }) => (
 
 
     </div>
-
-      <SwipeableDrawer anchor="right" open={true}>
-        
-
-      </SwipeableDrawer>
-
-
   </header>
 )
 
