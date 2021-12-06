@@ -1,6 +1,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+// import Steve_Braaksma_resume from "../Steve_Braaksma_resume.pdf"
+import resume from "../../public/static/Steve_Braaksma_resume.pdf"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -36,9 +38,9 @@ const Header = ({ siteTitle }) => (
       </h3>
 
       <h3 style={{ margin: 0 }}>
-        {/* <Link className="button" to="/contact">CONTACT</Link> */}
+        {/* <Link className="button" to="/public/Steve_Braaksma_resume.pdf">RESUME</Link> */}
         
-<a type='button' className='resume-button nav' rel="noreferrer" target="_blank" href='https://drive.google.com/file/d/11K5zQL3JQGUcldIgM1I9gW6QBpwrQ-Sx/view?usp=sharing'>RESUME</a>
+<a type='button' className='resume-button nav' rel="noreferrer" target="_blank" href={resume}>RESUME</a>
 
       </h3>
 
