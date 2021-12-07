@@ -32,7 +32,9 @@
 }
 
 .contact-card {
-  width: 400px;
+  width: 70%;
+  max-width: 375px;
+  min-width: 200px;
   height: 250px;
 }
 
