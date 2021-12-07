@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import resume from "/static/resume.pdf"
 // import { Drawer } from "@material-ui/core"
-import { Drawer } from '@mui/material'
+// import { Drawer } from '@mui/material'
 import { Hidden } from "@material-ui/core"
 import { IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu'
@@ -14,6 +14,7 @@ import { Divider } from '@mui/material'
 import ChevronRight from "@mui/icons-material/ChevronRight"
 import { List } from '@mui/material'
 import { ListItem } from '@mui/material'
+// import { makeStyles } from "@material-ui/core"
 
 
 
@@ -21,13 +22,19 @@ import { ListItem } from '@mui/material'
 
 //      ********works
 
-
+// const useStyles = makeStyles({
+//     paper: {
+//       // background: "blue",
+//       color: "blue"
+//     }
+// });
 
 
 
 const Header = ({ siteTitle }) => {
 
   const [ open, setOpen ] = useState(false)
+  // const classes = useStyles()
 
   return (
   
@@ -52,7 +59,7 @@ const Header = ({ siteTitle }) => {
           </IconButton>
       </Hidden>
       <SwipeableDrawer 
-        className="swipe" 
+        // className={classes.paper} 
         anchor="right" 
         open={open} 
         onOpen={() => setOpen(true)} 
