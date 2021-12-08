@@ -1,13 +1,8 @@
 import * as React from "react"
-// import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
-
-// import { Paper } from "@material-ui/core"
-// import { makeStyles } from "@material-ui/core/styles"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
 
 // const useStyles = makeStyles((theme) => ({
 //   section: {
@@ -15,6 +10,8 @@ import Seo from "../components/seo"
 //     backgroundColor: "green"
 //   }
 // }))
+
+
 
 const IndexPage = () => (
   <Layout>
@@ -25,11 +22,15 @@ const IndexPage = () => (
     
 
     <p>
-      paragraph
-    </p>
-    
+    Transitioning from supply chain to developer, I am eager to use a new set of tools
+    to solve business challenges.
+    Open to frontend, backend and full stack opportunities.
+    </p>  
+    <br />
+    <Link className="resume-button nav" to="/projects">
+      SEE MY PROJECTS
+    </Link>
   </Layout>
-  
 )
 
 export default IndexPage
