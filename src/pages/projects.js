@@ -26,6 +26,19 @@ const Projects = () => (
           <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer">
             <OpenInNewIcon/>
           </a>Launch App
+
+          <Button href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer" variant="contained" startIcon={<GitHubIcon />}>
+            View GitHub
+          </Button>
+          <br />
+          <br />
+          <Button href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer" variant="contained" startIcon={<RocketLaunchIcon />}>
+            Launch App&nbsp;
+          </Button>
+
+
+
+
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node / MongoDB / Express / Heroku / Netlify</h6>
           <img src={'/nodejs.svg'} alt="NodeJS" />
           <img src={'/mongodb.svg'} alt="MongoDB" />
@@ -43,6 +56,17 @@ const Projects = () => (
           <p>Designed for tracking electronic component purchases</p>
           <a href="https://github.com/stevebraaksma/thresher/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://thresherapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
+
+          <Button href="https://github.com/stevebraaksma/thresher/" target="_blank" rel="noreferrer" variant="contained" startIcon={<GitHubIcon />}>
+            View GitHub
+          </Button>
+          <br />
+          <br />
+          <Button href="https://thresherapp.herokuapp.com/" target="_blank" rel="noreferrer" variant="contained" startIcon={<RocketLaunchIcon />}>
+            Launch App&nbsp;
+          </Button>
+
+
           <h6 className="stack-card"> HTML / CSS / JavaScript / Node / MongoDB / Express / Auth0 / Heroku</h6>
           <img src={'/nodejs.svg'} alt="NodeJS" />
           <img src={'/mongodb.svg'} alt="MongoDB" />
@@ -87,6 +111,17 @@ const Projects = () => (
           <p>Displays festivals sorted by region</p>
           <a href="https://github.com/stevebraaksma/festivalRambler/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://festivalrambler.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
+
+          <Button href="https://github.com/stevebraaksma/festivalRambler/" target="_blank" rel="noreferrer" variant="contained" startIcon={<GitHubIcon />}>
+            View GitHub
+          </Button>
+          <br />
+          <br />
+          <Button href="https://festivalrambler.netlify.app/" target="_blank" rel="noreferrer" variant="contained" startIcon={<RocketLaunchIcon />}>
+            Launch App&nbsp;
+          </Button>
+
+
           <h6 className="stack-card"> HTML / CSS / JavaScript / jQuery / EDMtrain API / Netlify</h6>
           <img src={'/jquery.svg'} alt="jquery" />
           <img src={'/javascript.svg'} alt="JavaScript" />
