@@ -14,19 +14,11 @@ const Projects = () => (
     <Seo title="Projects" />
     <h1>Projects</h1>
 
-
     <Grid container spacing={2}>
       <Grid item xs={10} md={5}>
         <Card variant="outlined" className="card">
           <h4>BuyerNode Task Manager</h4>
           <p>Designed for purchasing/supply chain departments</p>
-          <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer">
-            <GitHubIcon/>
-          </a>View GitHub&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
-          <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer">
-            <OpenInNewIcon/>
-          </a>Launch App
-
           <Button href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer" variant="contained" startIcon={<GitHubIcon />}>
             View GitHub
           </Button>
@@ -35,10 +27,6 @@ const Projects = () => (
           <Button href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer" variant="contained" startIcon={<RocketLaunchIcon />}>
             Launch App&nbsp;
           </Button>
-
-
-
-
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node / MongoDB / Express / Heroku / Netlify</h6>
           <img src={'/nodejs.svg'} alt="NodeJS" />
           <img src={'/mongodb.svg'} alt="MongoDB" />
@@ -54,9 +42,6 @@ const Projects = () => (
         <Card variant="outlined" className="card">
           <h4>Thresher EMS Solutions</h4>
           <p>Designed for tracking electronic component purchases</p>
-          <a href="https://github.com/stevebraaksma/thresher/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
-          <a href="https://thresherapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
-
           <Button href="https://github.com/stevebraaksma/thresher/" target="_blank" rel="noreferrer" variant="contained" startIcon={<GitHubIcon />}>
             View GitHub
           </Button>
@@ -65,8 +50,6 @@ const Projects = () => (
           <Button href="https://thresherapp.herokuapp.com/" target="_blank" rel="noreferrer" variant="contained" startIcon={<RocketLaunchIcon />}>
             Launch App&nbsp;
           </Button>
-
-
           <h6 className="stack-card"> HTML / CSS / JavaScript / Node / MongoDB / Express / Auth0 / Heroku</h6>
           <img src={'/nodejs.svg'} alt="NodeJS" />
           <img src={'/mongodb.svg'} alt="MongoDB" />
@@ -82,9 +65,6 @@ const Projects = () => (
         <Card variant="outlined" className="card">
           <h4>Triplog</h4>
           <p>Trip planner with comment feature</p>
-          <a href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
-          <a href="https://triplogapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
-
           <Button href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer" variant="contained" startIcon={<GitHubIcon />}>
             View GitHub
           </Button>
@@ -93,8 +73,6 @@ const Projects = () => (
           <Button href="https://triplogapp.herokuapp.com/" target="_blank" rel="noreferrer" variant="contained" startIcon={<RocketLaunchIcon />}>
             Launch App&nbsp;
           </Button>
-
-
           <h6 className="stack-card"> HTML / CSS / JavaScript / Python / Django / Heroku</h6>
           <img src={'/python.svg'} alt="Python" />
           <img src={'/django.svg'} alt="Django" />
@@ -104,14 +82,10 @@ const Projects = () => (
         </Card>
       </Grid>
 
-
       <Grid item xs={10} md={5}>
         <Card variant="outlined" className="card">
           <h4>festivalRambler</h4>
           <p>Displays festivals sorted by region</p>
-          <a href="https://github.com/stevebraaksma/festivalRambler/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
-          <a href="https://festivalrambler.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
-
           <Button href="https://github.com/stevebraaksma/festivalRambler/" target="_blank" rel="noreferrer" variant="contained" startIcon={<GitHubIcon />}>
             View GitHub
           </Button>
@@ -120,8 +94,6 @@ const Projects = () => (
           <Button href="https://festivalrambler.netlify.app/" target="_blank" rel="noreferrer" variant="contained" startIcon={<RocketLaunchIcon />}>
             Launch App&nbsp;
           </Button>
-
-
           <h6 className="stack-card"> HTML / CSS / JavaScript / jQuery / EDMtrain API / Netlify</h6>
           <img src={'/jquery.svg'} alt="jquery" />
           <img src={'/javascript.svg'} alt="JavaScript" />
@@ -129,15 +101,7 @@ const Projects = () => (
           <img src={'/html5.svg'} alt="html5" />
         </Card>
       </Grid>
-
-
-
-
-
-
-
     </Grid>
-
   </Layout>
 )
 
