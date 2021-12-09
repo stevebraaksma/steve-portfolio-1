@@ -1,16 +1,11 @@
 import * as React from "react"
-// import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
 import { Card } from "@material-ui/core"
 import { Grid } from "@material-ui/core"
-
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-// import GithubIcon from '@mui/icons-material/Github';
 import GitHubIcon from '@material-ui/icons/GitHub';
-// import icons8-node-js-48 from "/static/icons8-node-js-48.png"
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import { Button } from '@mui/material'
 
 
@@ -66,13 +61,13 @@ const Projects = () => (
           <a href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://triplogapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
 
-          <Button variant="outlined" startIcon={<GitHubIcon />}>
+          <Button href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer" variant="contained" startIcon={<GitHubIcon />}>
             View GitHub
           </Button>
           <br />
           <br />
-          <Button variant="contained" startIcon={<OpenInNewIcon />}>
-            Launch App
+          <Button href="https://triplogapp.herokuapp.com/" target="_blank" rel="noreferrer" variant="contained" startIcon={<RocketLaunchIcon />}>
+            Launch App&nbsp;
           </Button>
 
 
