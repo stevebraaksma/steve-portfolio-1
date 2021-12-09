@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -24,8 +24,12 @@ const Projects = () => (
         <Card variant="outlined" className="card">
           <h4>BuyerNode Task Manager</h4>
           <p>Designed for purchasing/supply chain departments</p>
-          <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
-          <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
+          <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer">
+            <GitHubIcon/>
+          </a><h6>GitHub</h6>
+          <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer">
+            <OpenInNewIcon/>
+          </a><h6>Launch App</h6>
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node / MongoDB / Express / Heroku / Netlify</h6>
           <img src={'/nodejs.svg'} alt="NodeJS" />
           <img src={'/mongodb.svg'} alt="MongoDB" />
