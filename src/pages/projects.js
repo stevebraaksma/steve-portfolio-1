@@ -11,6 +11,7 @@ import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 // import GithubIcon from '@mui/icons-material/Github';
 import GitHubIcon from '@material-ui/icons/GitHub';
 // import icons8-node-js-48 from "/static/icons8-node-js-48.png"
+import { Button } from '@mui/material'
 
 
 const Projects = () => (
@@ -26,10 +27,10 @@ const Projects = () => (
           <p>Designed for purchasing/supply chain departments</p>
           <a href="https://github.com/stevebraaksma/buyernode-frontend/" target="_blank" rel="noreferrer">
             <GitHubIcon/>
-          </a><h6>GitHub</h6>
+          </a>View GitHub&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
           <a href="https://buyernode.netlify.app/" target="_blank" rel="noreferrer">
             <OpenInNewIcon/>
-          </a><h6>Launch App</h6>
+          </a>Launch App
           <h6 className="stack-card"> HTML / CSS / JavaScript / React / Node / MongoDB / Express / Heroku / Netlify</h6>
           <img src={'/nodejs.svg'} alt="NodeJS" />
           <img src={'/mongodb.svg'} alt="MongoDB" />
@@ -64,6 +65,17 @@ const Projects = () => (
           <p>Trip planner with comment feature</p>
           <a href="https://github.com/stevebraaksma/Triplog/" target="_blank" rel="noreferrer"><GitHubIcon/></a>&nbsp;&nbsp;
           <a href="https://triplogapp.herokuapp.com/" target="_blank" rel="noreferrer"><OpenInNewIcon/></a><br />
+
+          <Button variant="outlined" startIcon={<GitHubIcon />}>
+            View GitHub
+          </Button>
+          <br />
+          <br />
+          <Button variant="contained" startIcon={<OpenInNewIcon />}>
+            Launch App
+          </Button>
+
+
           <h6 className="stack-card"> HTML / CSS / JavaScript / Python / Django / Heroku</h6>
           <img src={'/python.svg'} alt="Python" />
           <img src={'/django.svg'} alt="Django" />
