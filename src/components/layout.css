@@ -1,5 +1,7 @@
 
-
+p > a {
+  color: #ccd6f6;;
+}
 
 .express-icon {
   width: 48px;
