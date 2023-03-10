@@ -18,8 +18,7 @@ const About = () => (
     <br />
     {/* Currently in an effort to use creative problem solving and unique code to find a simple solution to a complex problem I am working on a project to streamline purchasing of electronic components, called Thresher EMS Solutions. */}
     <br />
-    I spend most of my time with JavaScript and Drupal. After some years studying up on JavaScript, I joined 
-    <a href="https://generalassemb.ly/">General Assembly</a>'s coding bootcamp, and have been a developer at <a href="https://intervarsity.org/">InterVarsity Christian Fellowship/USA</a> for over a year now.
+    I spend most of my time with JavaScript and Drupal. After some years studying up on JavaScript, I joined <a href="https://generalassemb.ly/">General Assembly</a>'s coding bootcamp, and have been a developer at <a href="https://intervarsity.org/">InterVarsity Christian Fellowship/USA</a> for over a year now.
     <br />
     GITHUB:<br />
     <a href="https://github.com/SteveBraaksma">https://github.com/SteveBraaksma</a>
