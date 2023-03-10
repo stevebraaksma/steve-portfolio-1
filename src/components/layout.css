@@ -3,6 +3,10 @@ p > a {
   color: #ccd6f6;;
 }
 
+footer > a {
+  color: #ccd6f6;;
+}
+
 .express-icon {
   width: 48px;
   /* margin: 3px; */
