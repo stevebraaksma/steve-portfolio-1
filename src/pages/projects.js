@@ -38,7 +38,7 @@ const Projects = () => (
         </Card>
       </Grid>
 
-      <Grid item xs={10} md={5}>
+      <Grid item xs={15} md={5}>
         <Card variant="outlined" className="card">
           <h4>Thresher EMS Solutions</h4>
           <p>Designed for tracking electronic component purchases</p>
@@ -61,7 +61,7 @@ const Projects = () => (
         </Card>
       </Grid>
 
-      <Grid item xs={10} md={5}>
+      <Grid item xs={15} md={5}>
         <Card variant="outlined" className="card">
           <h4>Triplog</h4>
           <p>Trip planner with comment feature</p>
@@ -82,7 +82,7 @@ const Projects = () => (
         </Card>
       </Grid>
 
-      <Grid item xs={10} md={5}>
+      <Grid item xs={15} md={5}>
         <Card variant="outlined" className="card">
           <h4>festivalRambler</h4>
           <p>Displays festivals sorted by region</p>
