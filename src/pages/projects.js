@@ -15,8 +15,7 @@ const Projects = () => (
     <div className="flex-center-content">
       <h1>Projects</h1>
     </div>
-    <div className="flex-center-content">
-    <Grid container spacing={2}>
+    <Grid className="flex-center-content" container spacing={2}>
       <Grid item xs={15} md={5}>
         <Card variant="outlined" className="card">
           <h4>BuyerNode Task Manager</h4>
@@ -104,7 +103,6 @@ const Projects = () => (
         </Card>
       </Grid>
     </Grid>
-    </div>
   </Layout>
 )
 
