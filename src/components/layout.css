@@ -30,10 +30,11 @@ footer > a {
 
 .card {
   /* height: 300px; */
-  height: 500px;
+  /* height: 500px; */
   padding: 30px;
   margin: 20px;
   background-color: azure;
+  max-width: 335px;
 }
 
 .contact-card {
