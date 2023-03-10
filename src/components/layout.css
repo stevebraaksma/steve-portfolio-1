@@ -1,4 +1,10 @@
 
+.flex-center-content {
+  display: flex;
+  justify-content: center;
+}
+
+
 p > a {
   color: #ccd6f6;;
 }

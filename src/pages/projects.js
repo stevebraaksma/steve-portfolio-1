@@ -12,8 +12,10 @@ import { Button } from '@mui/material'
 const Projects = () => (
   <Layout>
     <Seo title="Projects" />
-    <h1>Projects</h1>
-
+    <div className="flex-center-content">
+      <h1>Projects</h1>
+    </div>
+    <div className="flex-center-content">
     <Grid container spacing={2}>
       <Grid item xs={15} md={5}>
         <Card variant="outlined" className="card">
@@ -102,6 +104,7 @@ const Projects = () => (
         </Card>
       </Grid>
     </Grid>
+    </div>
   </Layout>
 )
 
