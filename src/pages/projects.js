@@ -15,7 +15,7 @@ const Projects = () => (
     <h1>Projects</h1>
 
     <Grid container spacing={2}>
-      <Grid item xs={10} md={5}>
+      <Grid item xs={15} md={5}>
         <Card variant="outlined" className="card">
           <h4>BuyerNode Task Manager</h4>
           <p>Designed for purchasing/supply chain departments</p>
