@@ -19,7 +19,7 @@ const About = () => (
     <br />
     <br />
     GITHUB:<br />
-    https://github.com/SteveBraaksma
+    <a href="https://github.com/SteveBraaksma">https://github.com/SteveBraaksma</a>
     </p>
   </Layout>
 )
